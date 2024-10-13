@@ -1,0 +1,22 @@
+.container{
+    background-image: url(../Images/login.png);
+    border-style: groove ;
+   
+    border: 2px solid rgb(199, 199, 0);
+     
+   padding: 60px;
+   margin-bottom: 10px;
+}
+#log{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(199, 199, 0);
+     color: rgb(0, 0, 0);
+     border: none;
+     font-weight: bold;
+}
+#log:hover{
+    background-color: rgb(165, 165, 0);
+    transform: scale(0.9);
+}

@@ -1,0 +1,145 @@
+.banner{
+    position: relative;
+    text-align: center;
+}
+h1{   
+    position: absolute;
+    text-transform: uppercase;
+    font-family:serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.para{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family:serif;
+}
+
+.card-img-top:hover{
+    transform: scale(0.9);
+}
+#button1 {
+   background-color:  rgb(199,199,0);
+   color: black;
+   border: none;
+
+}
+#button1:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+#button2 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button2:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+#button3 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button3:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+ #button4 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button4:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+ #button5 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button5:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+ #button6 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button6:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+ #button7 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button7:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+ #button8 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button8:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+#button9 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button9:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+#button10 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button10:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+#button11 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button11:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}
+#button12 {
+    background-color:  rgb(199,199,0);
+    color: black;
+    border: none;
+ 
+ }
+ #button12:hover {
+    transform: scale(1.1);
+    background-color: rgb(165,165,0);
+}

@@ -1,0 +1,12 @@
+Capstone Project 1:
+E-Commerce App(using html,css,js,jquery,bootstrap)
+Header:Built header into two part first part contain  the logo which is c-mart and search bar and login and cart button which will redirect to login and cart page
+       Header2 header second part contain Home , Allproducts,Men and Women (which are dropdown ),kids pages and Contact pages whichare contain the link of the particular pages
+Banner:which contain background images and logo and text on it       
+Featured Products:which i built using carousel which contain 4products in large,2in medium and 1 in small products contain the product image and product detail and add to cart button
+Footer:which contain the link of all the pages like women,men,links and kids
+Products pages:which i built using card
+login:takes the background images and forms on it with logic that when the user type admin@admin,com as email and 123456 as password and so alert messages logic successful else not.
+contact :which built in two column contain images and contact forms
+cart:cart pages which take item in cart and summary two sections items in cart takes three column one for image secong for detail and delete button and third for increment and decrement button and second section summary takes details and checkout button
+theme of the project isw black and rgb(199,199,0) and on hover rgb(165,165,0)

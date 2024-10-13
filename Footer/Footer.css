@@ -1,0 +1,19 @@
+.foot{
+    background-color: rgb(15, 14, 14);
+    padding-top: 20px;
+    overflow: hidden;
+}
+a{
+    color: rgb(199,199,0);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(165,165, 0);
+}
+ hr.solid {
+        border-top: 3px solid #ffffff;
+      }
+.copy{
+    color: rgb(199,199,0);
+    padding-bottom: 20px;
+}

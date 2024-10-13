@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="javascriptreact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="./Cart.css">
+    <script src="Cart.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="header"></div>
+        <h1 class="text-center">Cart Page</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="card">
+                    <h4 class="card-header text-center">Items in cart</h4>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="../Images/women/dress2.png" alt="dress"  class="img-fluid">
+                        </div>
+                        <div class="col-4 mt-3">
+                            <h5 class="text-center">Kurta With Dupatta</h5>
+                            <p class="text-center">Rs-450</p>
+                       
+                        <div class="button">
+                            <button  class="btn btn-primary" id="Delete"><i class="fas fa-trash-alt "></i></button>
+                        </div>
+                    </div>
+                        <div class="col-4 mt-3 ">
+                            <div class="quantity-form  ">
+                                <button type="button" name="DecrementBtn" onclick="Decrementcount()"><i class="fas fa-minus" ></i></button>
+                                <h1 id="counter" >0</h1>
+                                <button type="button" name="IncrementBtn  " onclick="Incrementcount()" ><i class="fas fa-plus" ></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+                <div class="col-lg-4 ">
+                    <div class="card">
+                        <!--card-header using for take is header of card-->
+                    <h4 class="card-header text-center">Summary</h4>
+                    <div class="row">
+                    <div class="col-4 mt-3 mx-auto">
+                        <p>Cost</p>
+                        <p>Shipping</p>
+                        <hr/>
+                        <h6>Total</h6>
+                    </div>
+                    <!--mx-auto is used for margin auto take it center-->
+                    <div class="col-4 mt-3 mx-auto">
+                        <p>Rs-450</p>
+                        <p>Rs-50</p>
+                        <hr/>
+                        <h6>Rs-500</h6>
+                        </div>
+                        <div class="button">
+                            <button class="btn btn-primary" id="Checkout">Checkout</button>
+                          </div>
+              </div>
+            </div>
+         </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(function(){
+            $('#header').load('../Header/Header.html');
+            $('#footer').load('../Footer/Footer.html');
+        })
+    </script>
+</body>
+</html>
